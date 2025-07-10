@@ -21,4 +21,4 @@ The memory is stored as rv64.mem and is stored by a bytearray of 16MB. It is cle
 #### Execute
 	rv64.execute(asm, pc = 0, mem = None, imax = 0, debug = False)
 This function can execute an ASM, which could be a file path or a list of instructions. The pc option controls the program count, changing the instruction that executes. The mem option allows for loading of memory, and uses the default memory of 16 MB if none. 
-The imax allows the number of max instructions to be executed, with 0 as no limit. If the debug option is set to True, the program would print the instructions as it executes.  
+The imax allows the number of max instructions to be executed, with 0 as no limit. If the debug option is set to True, the program would print the instructions as it executes.
