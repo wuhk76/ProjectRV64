@@ -15,7 +15,7 @@ Registers in the form of a dictionary, and the keys are under the alias names su
 	some_variable = rv64.registers['register_name']
 where "register_name" is the alias name of a register. Although the registers are under alias names, a name such as x10 can also be use in the ASM. Registers are cleared by default every new execution.
 #### Memory
-The memory is stored as rv64.mem and is stored by a bytearray of 16MB. It is cleared by when executing again.
+The memory is stored as rv64.mem and is stored by a bytearray of 16MB. It is cleared by default every new execution.
 ### Functions
 #### Execute
 	rv64.execute(asm, pc = 0, mem = None, imax = 0, debug = False)
