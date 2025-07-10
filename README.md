@@ -13,7 +13,7 @@ in the Python script, as long as the module "projectrv64.py" is in the same dire
 Registers in the form of a dictionary, and the keys are under the alias names such as a0. To make the register assign a value, this line can be added in the script:
 ####
 	some_variable = rv64.registers['register_name']
-where "register_name" is the alias name of a register. Although the registers are under alias names, a name such as x10 can also be use in the ASM. Registers are cleared by default every new execution
+where "register_name" is the alias name of a register. Although the registers are under alias names, a name such as x10 can also be use in the ASM. Registers are cleared by default every new execution.
 #### Memory
 The memory is stored as rv64.mem and is stored by a bytearray of 16MB. It is cleared by when executing again.
 ### Functions
