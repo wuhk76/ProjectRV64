@@ -6,10 +6,12 @@ This is  a module that emulates a basic RISC-V 64 bit CPU, plus the M extension 
 The emulator can only support true instructions, so it cannot execute pseudo-ops such as li, mv, etc. However, the ebreak command can make it exit. Using a mid-tier Intel Core I3 with PyPy3, the program can run at 1 million instructions per second. The module can be imported with the line:
 	from projectrv64 import rv64
 in the Python script, as long as the module "projectrv64.py" is in the same directory. Using PyPy to execute the program could increase the speed about 2-  4x. It can be downloaded with this link:
+####
 	https://pypy.org/download.html
 ### Variables
 #### Registers
 Registers in the form of a dictionary, and the keys are under the alias names such as a0. To make the register assign a value, this line can be added in the script:
+####
 	some_variable = rv64.registers['register_name']
 where "register_name" is the alias name of a register. Although the registers are under alias names, a name such as x10 can also be use in the ASM. Registers are cleared by default every new execution
 #### Memory
