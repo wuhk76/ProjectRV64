@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "projectrv64"
+version = "0.1.0"
+description = "RISC-V RV64IM emulator in Python"
+authors = [
+    { name = "Nathan Wu", email = "wuhk76@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+keywords = ["riscv", "emulator", "rv64", "assembly", "cpu"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Emulators",
+]
+
+[project.urls]
+Homepage = "https://github.com/wuhk76/ProjectRV64"
