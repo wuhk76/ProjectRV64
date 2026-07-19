@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "projectrv64"
 version = "0.1.0"
-description = "RISC-V RV64IM emulator in Python"
+description = "RISC-V RV64 emulator in Python"
 authors = [
     { name = "Nathan Wu", email = "wuhk76@gmail.com" }
 ]
